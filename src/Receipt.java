@@ -11,11 +11,13 @@ import java.util.*;
 public class Receipt {
     private double total = 0;
     private Formatter f = new Formatter (System.out);
+
+   //Holds the values of the width of text
     private static final int W1 = 15;
     private static final int W2 = 5;
     private static final int W3 = 10;
 
-
+    //Holds the values of the string
     private String s1 = "%-" + W1 + "s %" + W2 + "s %" + W3 + "s\n";
     private String s2 = "%-" + W1 + ".15s %" + W2 + "d %" + W3 + ".2f\n";
     private String s3 = "%-" + W1 + "s %" + W2 + "s %" + W3 + ".2f\n";
