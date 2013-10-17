@@ -13,9 +13,7 @@ public class Receipt {
     private Formatter f = new Formatter (System.out);
 
    //Holds the values of the width of text
-    private static final int W1 = 15;
-    private static final int W2 = 5;
-    private static final int W3 = 10;
+    private int W1 = 15, W2 = 5, W3 = 10;
 
     //Holds the values of the string
     private String s1 = "%-" + W1 + "s %" + W2 + "s %" + W3 + "s\n";
